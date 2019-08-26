@@ -10,7 +10,7 @@ def estBissextile(annee):
 	if annee%4!=0:
 		return False
 	elif annee%100==0:
-		if annee%400:
+		if annee%400==0:
 			return True
 		else:
 			return False
